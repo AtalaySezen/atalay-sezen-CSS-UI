@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background-color: #E5E5E5;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 500px;
+    height: 610px;
+    background-color: white;
+    border-radius: 32px;
+    gap: 40px;    
+}
+.container h1{
+    margin-left: 1rem;
+}
+.content{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.content input:nth-child(1){
+    width: 450px;
+    height: 45px;
+    border-radius: 4px;
+    gap: 10px;
+}
+.content-check{
+    display: flex;
+    align-items: center;
+    margin-right: 9rem;
+    
+}
+.content-check input:nth-child(1){
+    width: 20px;
+}
+.content-check span{
+    font-size: 18px;
+    font-weight: 400;
+}
+.select-content{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.select-content select{
+    width: 220px;
+    height: 50px;
+    border-radius: 4px;
+    padding: 15px;
+    gap: 10px;
+
+}
+.driver-age{
+    display: flex;
+    margin-left: 0.5rem;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+}
+.driver-age input{
+    margin-left: 1rem;
+    width: 20px;
+    height: 25px;
+}
+.customer-content{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.customer-content .fa-solid{
+    margin-left: 0.5rem;
+    padding: 5px;
+}
+.driver-age span{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.fa-solid span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+}
+.customer-content button{
+    background-color: #FE6F4F;
+    width: 480px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    gap: 10px;
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+.container p{
+    margin-left: 1.5rem;
+    font-size: 12px;
+    font-weight: 600;
+    color: #0D1C52;
+    line-height: 15px;
+}
+.container input::placeholder{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    font-style: normal;
+}
+#checkbox-span{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    float: left;
+    margin-right: 1.2rem;
+}
+label{
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 600;
+}
+select, option{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #0D1C52;
+    border: 1px solid black;
+}
+.driver-age span{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.customer-content span{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #0D1C52;
+}
